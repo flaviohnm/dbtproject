@@ -1,15 +1,22 @@
-Welcome to your new dbt project!
+🚀 dbt + Amazon Redshift: Modelagem e Transformação de Dados
+Este repositório contém um projeto dbt integrado ao Amazon Redshift, demonstrando boas práticas de modelagem, transformação e orquestração de dados em um ambiente de Data Warehouse na nuvem.
 
-### Using the starter project
+📌 O que você encontrará aqui?
+✅ Configuração do dbt para Redshift
+✅ Modelagem incremental e snapshots
+✅ Testes de qualidade de dados
+✅ Uso de macros e Jinja para otimização
+✅ Documentação automatizada e lineage
 
-Try running the following commands:
-- dbt run
-- dbt test
+🎯 Objetivo
+Fornecer um guia prático para engenheiros e analistas de dados que desejam estruturar pipelines eficientes usando dbt e Redshift, garantindo escalabilidade, governança e performance.
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+📂 Estrutura do Projeto
+models/ → Modelos SQL organizados por camadas
+macros/ → Funções reutilizáveis para otimizar queries
+tests/ → Testes para validação da qualidade dos dados
+docs/ → Documentação gerada automaticamente pelo dbt
+🛠️ Requisitos
+dbt Core instalado
+Acesso a um cluster Redshift
+Credenciais configuradas no profiles.yml

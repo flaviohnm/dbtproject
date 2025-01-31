@@ -13,10 +13,10 @@ Este repositório contém um projeto **dbt** integrado ao **Amazon Redshift**, d
 Fornecer um guia prático para engenheiros e analistas de dados que desejam estruturar pipelines eficientes usando dbt e Redshift, garantindo escalabilidade, governança e performance.  
 
 ## 📂 Estrutura do Projeto  
-📁 models/ → Modelos SQL organizados por camadas
-📁 macros/ → Funções reutilizáveis para otimizar queries
-📁 tests/ → Testes para validação da qualidade dos dados
-📁 docs/ → Documentação gerada automaticamente pelo dbt
+- 📁 models/ → Modelos SQL organizados por camadas
+- 📁 macros/ → Funções reutilizáveis para otimizar queries
+- 📁 tests/ → Testes para validação da qualidade dos dados
+- 📁 docs/ → Documentação gerada automaticamente pelo dbt
 
 ## 🛠️ Requisitos  
 - [dbt Core](https://docs.getdbt.com/dbt-cli/installation) instalado  
